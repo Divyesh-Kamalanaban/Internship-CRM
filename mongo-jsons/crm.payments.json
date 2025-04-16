@@ -1,0 +1,54 @@
+[{
+  "_id": {
+    "$oid": "67f004d4f69d078ad851b06a"
+  },
+  "id": 1743783124324,
+  "amount": 1234,
+  "paymentDate": {
+    "$date": "2025-04-04T00:00:00.000Z"
+  },
+  "paymentMethod": "Bank Transfer",
+  "transactionId": "122333",
+  "status": "Completed",
+  "currency": "USD",
+  "notes": "",
+  "paidBy": "Me",
+  "attachments": [],
+  "createdAt": {
+    "$date": "2025-04-04T16:12:04.359Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-04T16:12:04.367Z"
+  },
+  "__v": 0,
+  "invoiceId": {
+    "$oid": "67f0934bf0b04e9c98b3e88d"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f0066e59955f4d1e2ecf58"
+  },
+  "id": 1743783534447,
+  "amount": 1000,
+  "paymentDate": {
+    "$date": "2025-04-04T00:00:00.000Z"
+  },
+  "paymentMethod": "Credit Card",
+  "transactionId": "12345",
+  "status": "Refunded",
+  "currency": "USD",
+  "notes": "Refunded",
+  "paidBy": "Divyesh",
+  "attachments": [],
+  "createdAt": {
+    "$date": "2025-04-04T16:18:54.477Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-04T16:18:54.482Z"
+  },
+  "__v": 0,
+  "invoiceId": {
+    "$oid": "67f0934bf0b04e9c98b3e88d"
+  }
+}]

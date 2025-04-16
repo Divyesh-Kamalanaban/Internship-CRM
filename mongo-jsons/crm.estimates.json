@@ -1,0 +1,102 @@
+[{
+  "_id": {
+    "$oid": "67ef641a04c6bd79eb99bf09"
+  },
+  "id": 1743741977948,
+  "estimateNumber": "EST-1743741977948",
+  "status": "Draft",
+  "validUntil": {
+    "$date": "2025-05-04T00:00:00.000Z"
+  },
+  "issueDate": {
+    "$date": "2025-04-04T00:00:00.000Z"
+  },
+  "clientDetails": {
+    "name": "1",
+    "address": "B"
+  },
+  "items": [
+    {
+      "itemName": "1",
+      "description": "1",
+      "quantity": 1,
+      "unitPrice": 1,
+      "totalPrice": 1,
+      "_id": {
+        "$oid": "67ef641a04c6bd79eb99bf0a"
+      }
+    }
+  ],
+  "subtotal": 1,
+  "tax": 0.1,
+  "totalAmount": 1.1,
+  "currency": "USD",
+  "notes": "",
+  "terms": "",
+  "convertedToInvoice": {
+    "isConverted": false
+  },
+  "metadata": {
+    "tags": []
+  },
+  "attachments": [],
+  "createdAt": {
+    "$date": "2025-04-04T04:46:18.041Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-04T04:46:18.055Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67ef656604c6bd79eb99bf19"
+  },
+  "id": 1743742310273,
+  "estimateNumber": "EST-1743742310273",
+  "status": "Draft",
+  "validUntil": {
+    "$date": "2025-05-04T00:00:00.000Z"
+  },
+  "issueDate": {
+    "$date": "2025-04-04T00:00:00.000Z"
+  },
+  "clientDetails": {
+    "name": "B",
+    "email": "demo@college.edu",
+    "address": "B",
+    "phone": "01234567890"
+  },
+  "items": [
+    {
+      "itemName": "a",
+      "description": "a",
+      "quantity": 2,
+      "unitPrice": 1,
+      "totalPrice": 2,
+      "_id": {
+        "$oid": "67f0b712dac6fd42aeae7078"
+      }
+    }
+  ],
+  "subtotal": 2,
+  "tax": 0.2,
+  "totalAmount": 2.2,
+  "currency": "USD",
+  "notes": "",
+  "terms": "",
+  "convertedToInvoice": {
+    "isConverted": false
+  },
+  "metadata": {
+    "tags": []
+  },
+  "attachments": [],
+  "createdAt": {
+    "$date": "2025-04-04T04:51:50.279Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-05T03:19:04.178Z"
+  },
+  "__v": 2
+}]

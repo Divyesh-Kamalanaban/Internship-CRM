@@ -1,0 +1,45 @@
+[{
+  "_id": {
+    "$oid": "67f0934bf0b04e9c98b3e88d"
+  },
+  "id": 1,
+  "billFrom": "Mukunth",
+  "billFromEmail": "test@Gmail.com",
+  "billFromAddress": "chennai",
+  "billFromPhone": "1234567890",
+  "billTo": "DivyeshK",
+  "billToEmail": "2@3.com",
+  "billToAddress": "mumbai",
+  "billToPhone": "0987654321",
+  "status": "Pending",
+  "orders": [
+    {
+      "itemName": "monitor",
+      "units": 10,
+      "unitPrice": 10000,
+      "unitTotalPrice": 100000,
+      "_id": {
+        "$oid": "67f0934bf0b04e9c98b3e88e"
+      }
+    }
+  ],
+  "totalCost": 100000,
+  "vat": 10000,
+  "grandTotal": 10100000,
+  "currency": "USD",
+  "recurring": {
+    "isRecurring": false
+  },
+  "orderDate": {
+    "$date": "2025-04-05T02:19:55.294Z"
+  },
+  "paymentRecords": [],
+  "remindersSent": [],
+  "createdAt": {
+    "$date": "2025-04-05T02:19:55.304Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-05T04:50:06.925Z"
+  },
+  "__v": 0
+}]
